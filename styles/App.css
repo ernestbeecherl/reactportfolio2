@@ -1,0 +1,13 @@
+/* Styles for a custom container */
+.container-custom {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    min-height: 100vh; /* Minimum height of 100% of viewport height */
+  }
+  
+  /* Styles for the main content area */
+  .main {
+    flex: 1; /* Allow the main content to expand to fill available space */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+  } 
